@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/misroservicios/src",
+  "monorepo": true,
+  "root": "apps/misroservicios",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/misroservicios/tsconfig.app.json"
+  },
+  "projects": {
+    "misroservicios": {
+      "type": "application",
+      "root": "apps/misroservicios",
+      "entryFile": "main",
+      "sourceRoot": "apps/misroservicios/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/misroservicios/tsconfig.app.json"
+      }
+    },
+    "helath": {
+      "type": "application",
+      "root": "apps/helath",
+      "entryFile": "main",
+      "sourceRoot": "apps/helath/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/helath/tsconfig.app.json"
+      }
+    },
+    "sso": {
+      "type": "application",
+      "root": "apps/sso",
+      "entryFile": "main",
+      "sourceRoot": "apps/sso/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/sso/tsconfig.app.json"
+      }
+    },
+    "inventory": {
+      "type": "application",
+      "root": "apps/inventory",
+      "entryFile": "main",
+      "sourceRoot": "apps/inventory/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/inventory/tsconfig.app.json"
+      }
+    }
+  }
+}
