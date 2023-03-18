@@ -1,11 +1,11 @@
 [submodule "apps/helath"]
 	path = apps/helath
-	url = https://github.com/daniv293/helath.git
+	url = ../helath.git
 
 [submodule "apps/inventory"]
 	path = apps/inventory
-	url = https://github.com/daniv293/inventory.git
+	url = ../inventory.git
 
 [submodule "apps/sso"]
 	path = apps/sso
-	url = https://github.com/daniv293/sso.git
+	url = ../sso.git
