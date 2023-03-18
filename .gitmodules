@@ -5,3 +5,7 @@
 [submodule "apps/inventory"]
 	path = apps/inventory
 	url = https://github.com/daniv293/inventory.git
+
+[submodule "apps/sso"]
+	path = apps/sso
+	url = https://github.com/daniv293/sso.git
