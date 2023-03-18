@@ -1,7 +1,3 @@
-[submodule "health-project-nestjs"]
-	path = health-project-nestjs
-	url = https://github.com/xdtconsulting/health-project-nestjs.git
-
 [submodule "apps/helath"]
 	path = apps/helath
 	url = https://github.com/daniv293/helath.git
