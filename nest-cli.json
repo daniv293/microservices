@@ -27,15 +27,6 @@
         "tsConfigPath": "apps/helath/tsconfig.app.json"
       }
     },
-    "sso": {
-      "type": "application",
-      "root": "apps/sso",
-      "entryFile": "main",
-      "sourceRoot": "apps/sso/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/sso/tsconfig.app.json"
-      }
-    },
     "inventory": {
       "type": "application",
       "root": "apps/inventory",
@@ -43,6 +34,15 @@
       "sourceRoot": "apps/inventory/src",
       "compilerOptions": {
         "tsConfigPath": "apps/inventory/tsconfig.app.json"
+      }
+    },
+    "sso": {
+      "type": "application",
+      "root": "apps/sso",
+      "entryFile": "main",
+      "sourceRoot": "apps/sso/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/sso/tsconfig.app.json"
       }
     }
   }
